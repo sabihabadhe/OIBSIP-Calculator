@@ -1,0 +1,108 @@
+html, body{
+    height: auto;
+    width: auto;
+    background-color:rgb(74, 111, 223);
+}
+.text-center{
+    text-align: center;
+}
+.mx-auto{
+    margin-left: 470px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg{
+    background-color: white;
+    width: 360px;
+    height: 465px;
+    border-radius: 15px;
+    border:solid rgb(152, 193, 247);
+}
+#input{
+    margin: 15px 0px 5px 0px;
+    padding: 20px ;
+    border-radius: 8px;
+    width: 280px;
+    font: 1.8rem timesnewroman bolder;
+    background-color:rgb(214, 228, 248);
+    border:solid rgb(169, 203, 248);
+    font-size: 1.5rem;
+}
+.main{
+    margin: 8px 0;
+}
+.main button {
+    padding: 15px;
+    margin: 0 2px;
+    text-align:center;
+    background-color:rgb(158, 197, 248);
+    border:solid rgb(158, 197, 248);
+    border-radius: 9px;
+    cursor: pointer;
+    width: 60px;
+    font-family: 'Times New Roman';
+    font-size: large;
+}
+.main button:hover{
+    background-color:rgb(115, 172, 248);
+    border:solid rgb(115, 172, 248);
+    width: 64px;
+}
+.main #up{
+    padding: 12px;
+    width: 60px;
+    background-color:rgb(125, 180, 253);
+    border:solid rgb(125, 180, 253);
+}
+.main #up:hover{
+    background-color:rgb(78, 152, 250);
+    border:solid rgb(78, 152, 250);
+    width: 64px;
+}
+.main #right{
+    width: 60px;
+    padding: 15px;
+    background-color:rgb(125, 180, 253);
+    border:solid rgb(125, 180, 253);
+}
+.main #right:hover{
+    background-color:rgb(78, 152, 250);
+    border:solid rgb(78, 152, 250);
+    width: 64px;
+}
+.main #right-spc{
+    background-color:rgb(125, 180, 253);
+    border:solid rgb(125, 180, 253);
+    padding: 13px;
+}
+.main #right-spc:hover{
+    background-color:rgb(78, 152, 250);
+    border:solid rgb(78, 152, 250);
+    padding: 13px;
+    width: 64px;
+}
+.main #spc{
+    background-color:rgb(125, 180, 253);
+    border:solid rgb(125, 180, 253);
+    margin: 0 1px;
+    padding: 12px;
+    width: 127px;
+}
+.main #spc:hover{
+    background-color:rgb(78, 152, 250);
+    border:solid rgb(78, 152, 250);
+    width: 130px;
+}
+.main #bottom{
+    width: 60px;
+    padding: 15px;
+    background-color:rgb(125, 180, 253);
+    border:solid rgb(125, 180, 253);
+}
+.main #bottom:hover{
+    width: 64px;
+    background-color:rgb(78, 152, 250);
+    border:solid rgb(78, 152, 250);
+}
